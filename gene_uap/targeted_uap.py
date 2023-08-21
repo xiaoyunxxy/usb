@@ -62,7 +62,7 @@ def main():
             v, fooling_rates, accuracies, total_iterations=adversarial_perturbation.generate(
                 dataset.get_dataloader(mode='train'), dataset.get_dataloader(mode='valid'), 
                 model, target_label=target_label, xi=20, delta=0.6, max_iter_uni=5)
-            # torch.save(v.cpu(), upa_dir)
+            torch.save(v.cpu(), upa_dir)
 
             time_end=time.time()
             print('model id:' + str(i) + '  target class: ' + str(target_label) + '  time cost',time_end-time_start,'s')
