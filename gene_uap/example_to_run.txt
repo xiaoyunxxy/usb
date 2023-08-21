@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python targeted_uap.py --dataset sample_imagenet --data_dir /data/xuxx/experiment_uap/experiments_trojanzoo/data/image/imagenet10/ --model efficientnet_b0
