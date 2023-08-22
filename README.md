@@ -5,3 +5,6 @@ There are 2 parts of code.
 2. using USB for detection. Use run_detection.sh to call the methods.
 
 Note, the generated UAP should be put at the same dir as the model dir. And the name of UAP file should be '/uap_tar_'+str(target)+'_mark('+mark_height+','+str(mark_width)+').pth'
+
+
+For more information about TrojanZoo, see https://github.com/ain-soph/trojanzoo
